@@ -1,21 +1,21 @@
 #کس مادر ادیتور
+import os
+import sys
+
+os.system("pip install colored")
+os.system("pip install colorama")
+os.system("pip install datetime")
 
 from colorama import Fore
 import hashlib
 from base64 import b64encode, b64decode
-import os
 import codecs
 import time
 import binascii
 import re
 from time import sleep
-import sys
-import os
 from platform import python_version
 
-os.system("pip install colored")
-os.system("pip install colorama")
-os.system("pip install datetime")
 
 Limpar = "clear"
 
